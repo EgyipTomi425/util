@@ -1,3 +1,6 @@
 [submodule "statistics"]
 	path = statistics
 	url = git@github.com:EgyipTomi425/statistics.git
+[submodule "voice"]
+	path = voice
+	url = git@github.com:EgyipTomi425/voice.git

@@ -1,1 +1,3 @@
 set(STATISTICS ON)
+
+set(VOICE ON)
