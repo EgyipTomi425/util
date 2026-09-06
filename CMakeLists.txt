@@ -14,3 +14,8 @@ if(STATISTICS AND CUDAToolkit_FOUND)
     add_subdirectory(statistics)
     target_link_libraries(util PUBLIC statistics)
 endif()
+
+if(VOICE)
+    add_subdirectory(voice)
+    target_link_libraries(util PUBLIC voice)
+endif()

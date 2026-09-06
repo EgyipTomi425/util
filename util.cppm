@@ -6,3 +6,10 @@ export import statistics;
 export import statistics_dc;
 #endif
 #endif
+
+#ifdef VOICE
+export import voice;
+#ifdef ECHTERWACHTER
+export import voice_dc;
+#endif
+#endif
