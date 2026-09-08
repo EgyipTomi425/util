@@ -18,8 +18,10 @@ export inline const int statistics_running = []
 
 #ifdef VOICE
 export import voice;
+export import voice_taunts;
 #ifdef ECHTERWACHTER
 export import voice_dc;
+export import voice_taunts_dc;
 #endif
 export inline const int voice_running = []
 {
