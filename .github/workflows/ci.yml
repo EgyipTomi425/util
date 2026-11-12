@@ -40,6 +40,7 @@ jobs:
         uses: actions/checkout@v7.0.1
         with:
           path: host/src/util
+          submodules: recursive
           persist-credentials: false
       - name: Install CPU dependencies
         timeout-minutes: 8
